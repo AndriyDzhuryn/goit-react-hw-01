@@ -1,0 +1,31 @@
+.friend_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.friend_avatar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.friend_name {
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: black;
+}
+.friend_online {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: green;
+}
+.friend_offline {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: red;
+}
